@@ -1,6 +1,7 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  background-color: lightgreen;
 }
 
 .Navigation {
@@ -13,7 +14,8 @@
   background-color: red;
 }
 
-.NavigationItem {
+.NavigationItem a {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: white;
+  color: yellow;
+  text-decoration: none;
 }
