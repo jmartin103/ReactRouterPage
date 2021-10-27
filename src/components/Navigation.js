@@ -1,19 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
+import Item from "./Item";
 
 const Navigation = () => (
-  <div>
-    <ul>
-      <li>
-        <Link to="/">Home</Link>
-      </li>
-      <li>
-        <Link to="/about">About</Link>
-      </li>
-      <li>
-        <Link to="/contact">Contact</Link>
-      </li>
-    </ul>
+  <div className="Navigation">
+    <Item destination="/" name="Home" />
+    <Item destination="/about" name="About" />
+    <Item destination="/contact" name="Contact" />
   </div>
 );
 
