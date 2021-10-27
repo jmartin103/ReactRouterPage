@@ -4,4 +4,16 @@
 }
 
 .Navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-style: ridge;
+  padding: 0.5rem 2rem;
+  position: relative;
+  background-color: red;
+}
+
+.NavigationItem {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
 }

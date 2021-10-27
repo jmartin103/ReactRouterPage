@@ -1,12 +1,12 @@
 import React from "react";
 
-import Item from "./Item";
+import NavigationItem from "./NavigationItem";
 
 const Navigation = () => (
   <div className="Navigation">
-    <Item destination="/" name="Home" />
-    <Item destination="/about" name="About" />
-    <Item destination="/contact" name="Contact" />
+    <NavigationItem destination="/" name="Home" />
+    <NavigationItem destination="/about" name="About" />
+    <NavigationItem destination="/contact" name="Contact" />
   </div>
 );
 
